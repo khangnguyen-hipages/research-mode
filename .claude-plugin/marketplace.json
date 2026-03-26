@@ -1,8 +1,13 @@
 {
+  "name": "khangnguyen-hipages-research-mode",
+  "owner": {
+    "name": "khangnguyen-hipages"
+  },
   "plugins": [
     {
       "name": "research-mode",
-      "path": "."
+      "source": ".",
+      "description": "Anti-hallucination research mode for Claude Code"
     }
   ]
 }
