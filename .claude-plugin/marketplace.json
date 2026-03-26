@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "research-mode",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "khangnguyen-hipages/research-mode"
+      },
       "description": "Anti-hallucination research mode for Claude Code"
     }
   ]
